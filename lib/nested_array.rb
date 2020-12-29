@@ -53,6 +53,10 @@ def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
   updated_matrix = matrix
+<<<<<<< HEAD
+=======
+  print updated_matrix
+>>>>>>> d7a9ed043a8089708a219462d183fcd35cecaac9
   updated_matrix[row][column] = new_value
   updated_matrix
 end
